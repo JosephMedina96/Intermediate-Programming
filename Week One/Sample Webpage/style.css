@@ -1,15 +1,24 @@
 html {
-	background-image: url("https://78.media.tumblr.com/083e50ffb32618f8c7041a16155745e7/tumblr_olmz6jItUe1u7gnm9o1_500.gif")
+	background-image: url("https://orig00.deviantart.net/a72c/f/2014/120/8/c/abstract_geometric_low_poly___wallpaper_by_mcfrolic-d7gjq9d.jpg")
 }
 
 h1 {
 	background-image: url("https://i.ytimg.com/vi/PeEFK0hTfeA/maxresdefault.jpg");
 	color: white;
+	text-align: center;
 	padding: 4pt;
 	font-weight: bold
+}
+
+img {
+	margin-left: 20%
 }
 
 .button {
 	background-color: #f15d3d;
 	color: white
+}
+
+#player {
+	margin-left: 25%
 }
