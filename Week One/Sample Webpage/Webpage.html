@@ -6,6 +6,9 @@
 	<!-- any context). -->
 	<head>
 		<title>This is a webpage</title> <!-- Displayed text for tabs and windows. -->
+		<link 
+			href="https://fonts.googleapis.com/css?family=Indie+Flower|VT323" 
+			rel="stylesheet">
 		<link rel="stylesheet" href="style.css"> <!-- Links to an external stylesheet. -->
 
 		<!-- A set of scripts which work in conjunction with one another. The youtube -->
@@ -23,14 +26,14 @@
 
 		<!-- A button that activates a function from an external Javascript file. -->
 		<input class="button" type="button" onclick="switchMode()" value="Switch Modes" />
-		<h1>Here's a picture:</h1>
+		<h1 name="h1">Here's a picture:</h1>
 		<!-- An image. -->
 		<img 
 			src="https://www.petmd.com/sites/default/files/petmd-cat-happy-13.jpg" 
 			alt="A cat cleaning itself." 
 			id="picture">
 
-		<h1>Also, here's a video:</h1>
+		<h1 name="h1">Also, here's a video:</h1>
 		<div id="player"></div> <!-- This div will be replaced with a youtube video player, -->
 								<!-- as stated in the Iframe API documentation. -->
 	</body>

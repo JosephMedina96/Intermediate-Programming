@@ -18,6 +18,10 @@ function loadNewVideo(id) {
 // Changes the contents of the picture and video to dogs				
 function dogMode() {
 	document.getElementById("picture").src = "https://www.what-dog.net/Images/faces2/scroll0015.jpg";
+	var temp = document.getElementsByName("h1");
+	for (i = 0; i < temp.length; i++) {
+		temp[i].style.fontFamily = "VT323,monospace";
+	}
 	loadNewVideo("swmuqGWgZCc")
 	mode = true;
 }
@@ -25,6 +29,10 @@ function dogMode() {
 // Changes the contents of the picture and video to cats
 function catMode() {
 	document.getElementById("picture").src = "https://www.petmd.com/sites/default/files/petmd-cat-happy-13.jpg";
+	var temp = document.getElementsByName("h1");
+	for (i = 0; i < temp.length; i++) {
+		temp[i].style.fontFamily = "Indie Flower,cursive";
+	}
 	loadNewVideo("RM5hQ3Qtf-8")
 	mode = false;
 }
