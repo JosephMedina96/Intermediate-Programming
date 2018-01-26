@@ -5,7 +5,7 @@
 	<!-- strictly necessary to place elsewhere (Contains code that can be run from -->
 	<!-- any context). -->
 	<head>
-		<title>This is a webpage</title> <!-- Displayed text for tabs and windows. -->
+		<title id="why">This is a webpage</title> <!-- Displayed text for tabs and windows. -->
 		<link 
 			href="https://fonts.googleapis.com/css?family=Indie+Flower|VT323" 
 			rel="stylesheet">
@@ -24,14 +24,16 @@
 	<!-- code that must be run after a certain point of loading). -->
 	<body>
 
-		<!-- A button that activates a function from an external Javascript file. -->
-		<input class="button" type="button" onclick="switchMode()" value="Switch Modes" />
+		
 		<h1 name="h1">Here's a picture:</h1>
 		<!-- An image. -->
 		<img 
 			src="https://www.petmd.com/sites/default/files/petmd-cat-happy-13.jpg" 
 			alt="A cat cleaning itself." 
 			id="picture">
+
+		<!-- A button that activates a function from an external Javascript file. -->
+		<input class="button" type="button" onclick="switchMode()" value="Do Not Touch This Button" />
 
 		<h1 name="h1">Also, here's a video:</h1>
 		<div id="player"></div> <!-- This div will be replaced with a youtube video player, -->
