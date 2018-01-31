@@ -1,0 +1,42 @@
+<!DOCTYPE html> <!-- Basic HTML Declaration. Must be included in all modern HTML. -->
+<html>
+	<!-- Head -->
+	<!-- Contains metadata relevant to the webpage, as well as scripts that aren't -->
+	<!-- strictly necessary to place elsewhere (Contains code that can be run from -->
+	<!-- any context). -->
+	<head>
+		<title id="why">This is a webpage</title> <!-- Displayed text for tabs and windows. -->
+		<link 
+			href="https://fonts.googleapis.com/css?family=Indie+Flower|VT323" 
+			rel="stylesheet">
+		<link rel="stylesheet" href="style.css"> <!-- Links to an external stylesheet. -->
+
+		<!-- A set of scripts which work in conjunction with one another. The youtube -->
+		<!-- Iframe API must be loaded first, as currently the DOM is loading the contents -->
+		<!-- synchronously. -->
+		<script src="https://www.youtube.com/iframe_api"></script>
+		<script src="Functionality.js"></script>
+	</head>
+
+	<!-- Body -->
+	<!-- Contains all visual items of a webpage. May include references to Javascript that -->
+	<!-- has been loaded in the head. Scripts may be placed here if necessary (Contains -->
+	<!-- code that must be run after a certain point of loading). -->
+	<body>
+
+		
+		<h1 name="h1">Here's a picture:</h1>
+		<!-- An image. -->
+		<img 
+			src="https://www.petmd.com/sites/default/files/petmd-cat-happy-13.jpg" 
+			alt="A cat cleaning itself." 
+			id="picture">
+
+		<!-- A button that activates a function from an external Javascript file. -->
+		<input class="button" type="button" onclick="switchMode()" value="Do Not Touch This Button" />
+
+		<h1 name="h1">Also, here's a video:</h1>
+		<div id="player"></div> <!-- This div will be replaced with a youtube video player, -->
+								<!-- as stated in the Iframe API documentation. -->
+	</body>
+</html>
