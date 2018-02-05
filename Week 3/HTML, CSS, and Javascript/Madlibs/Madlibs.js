@@ -49,6 +49,3 @@ function makeMadLibs() {
 	var final_text = temp_opening + temp_exposition_1 + temp_exposition_2 + temp_exposition_3 + temp_exposition_4;
 	return final_text;
 }
-
-
-
