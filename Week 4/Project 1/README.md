@@ -1,1 +1,0 @@
-[The Oak Zone](https://josephmedina96.github.io/Intermediate-Project-1/index.html "Professor Oak's Realm")
